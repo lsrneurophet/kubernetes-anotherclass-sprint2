@@ -18,13 +18,6 @@ pipeline {
 
     stages {
 
-        stage('Username 확인') {
-            steps {
-                script {
-				}
-            }
-        }
-
         stage('소스파일 체크아웃') {
             steps {
                 // 소스코드를 가져올 Github 주소
